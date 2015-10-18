@@ -1,12 +1,19 @@
 'use strict';
 angular.module('mattGreenUX')
-.factory('ProjecysFactory', function($http){
-  
-  
+.factory('ProjectsFactory', function($http){
 
-  return {
+  var ProjectsFactory = {};
+  ProjectsFactory.projectsData = {};
 
-  }
+  ProjectsFactory.getData = function(){
+    console.log('inside proj factory');
+    return $http.get('/data/data.js').then(function(data){
+      ProjectsFactory.projectsData = data;
+      console.log(data);
+    });
+  };
+
+  return ProjectsFactory;
 
 });
 

@@ -5,7 +5,7 @@
       "alias": "psal",
       "projectType": "mobile app",
       "bgImage": "",
-      "logo": "",
+      "logo": "images/nyc_logo.png",
       "descriptionUrl": ""
     },
     {
@@ -13,7 +13,7 @@
       "alias": "erb",
       "projectType": "tablet & web apps",
       "bgImage": "",
-      "logo": "",
+      "logo": "images/erbLogo1.png",
       "descriptionUrl": ""
     },
     {
@@ -21,7 +21,7 @@
       "alias": "macys",
       "projectType": "mobile app",
       "bgImage": "",
-      "logo": "",
+      "logo": "images/macysLogo2.png",
       "descriptionUrl": ""
     },
     {
@@ -29,7 +29,7 @@
       "alias": "moodsnap",
       "projectType": "mobile app",
       "bgImage": "",
-      "logo": "",
+      "logo": "images/MoodsnapLogo1.png",
       "descriptionUrl": ""
     },
     {
@@ -37,7 +37,7 @@
       "alias": "comp",
       "projectType": "website",
       "bgImage": "",
-      "logo": "",
+      "logo": "images/nyc_logo.png",
       "descriptionUrl": ""
     }
   ]

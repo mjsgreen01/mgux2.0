@@ -10,9 +10,9 @@ angular.module('mattGreenUX')
 
   return {
     restrict: 'EA',
-    templateUrl: 'app/views/homeProject.html',
+    templateUrl: '/views/homeProject.html',
     scope: {
-      
+      "project": "="
     },
     controller: controller,
     controllerAs: 'homeProject',

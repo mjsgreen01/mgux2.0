@@ -9,7 +9,14 @@ angular.module('mattGreenUX')
   };
 
   return {
-
+    restrict: 'EA',
+    templateUrl: 'app/views/homeProject.html',
+    scope: {
+      
+    },
+    controller: controller,
+    controllerAs: 'homeProject',
+    bindToController: true
   };
 
 });

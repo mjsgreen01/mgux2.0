@@ -7,9 +7,9 @@ angular.module('mattGreenUX')
 
   ProjectsFactory.getData = function(){
     console.log('inside proj factory');
-    return $http.get('/data/data.js').then(function(data){
-      ProjectsFactory.projectsData = data;
-      console.log(data);
+    return $http.get('/data/data.js').then(function(res){
+      ProjectsFactory.projectsData = res.data.projects;
+      console.log(res);
     });
   };
 

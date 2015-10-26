@@ -1,19 +1,17 @@
-<div>{{homeProject.project}}</div>
-
-
-<div class="{{homeProject.alias}}Contain previewContain rowContain">
+<div class="{{project.alias}}Contain previewContain rowContain">
+<div>{{project.project}}</div>
   <div class="opacityLayer">
     <div class="titleContain">
       <div class="projectTitles">
-        <h2>{{homeProject.name}}</h2>
-        <h4>{{homeProject.projectType}}</h4>
+        <h2>{{project.name}}</h2>
+        <h4>{{project.projectType}}</h4>
         <!-- TODO: use poj aliases for routing -->
         <p><a href="PSAL/index.html">Read The Case Study</a></p>
       </div>
     </div><!-- 
   --><div class="previewImageContain">
       <div class="previewContent">
-        <img class="logo {{homeProject.alias}}Logo" src="{{homeProject.logo}}">
+        <img class="logo {{project.alias}}Logo" src="{{project.logo}}">
       </div>
     </div>
   </div>

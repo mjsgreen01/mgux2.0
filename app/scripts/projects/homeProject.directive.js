@@ -16,7 +16,7 @@ angular.module('mattGreenUX')
     },
     controller: controller,
     controllerAs: 'homeProject',
-    bindToController: true
+    // bindToController: true
   };
 
 });

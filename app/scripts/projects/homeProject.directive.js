@@ -4,7 +4,7 @@ angular.module('mattGreenUX')
 
 .directive('homeProject', function(){
   var controller = function(){
-    var vm = this;
+    // var vm = this;
     
   };
 
